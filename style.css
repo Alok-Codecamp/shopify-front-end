@@ -1,0 +1,19 @@
+
+body{
+    margin: 0;
+    padding: 0;
+}
+.top-bar{
+    background-color: #E85992;
+    height: 26px;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+}
+.top-bar p{
+    margin-top: 6px;
+}

@@ -16,4 +16,41 @@ body{
 }
 .top-bar p{
     margin-top: 6px;
+    word-spacing: 10px;
+}
+.nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: whitesmoke;
+}
+.logo{
+    font-size: 36px;
+    color: goldenrod;
+    font-family: cursive;
+    margin-left: 4%;
+}
+
+.navigation{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    margin-right: 32%;
+    margin-bottom: 12px;
+    
+}
+.navigation li{
+    margin-right: 28px;
+}
+.search-cart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+    list-style: none;
+}
+.search-cart li{
+    font-size: 10px;
+    margin-right: 20px;
 }

@@ -134,19 +134,104 @@ width: 100%;
 .rakhi h2{
     margin-left: 50px;
 }
-.item{
+.rakhi-item{
     display: flex;
     justify-content: center;
     align-items: center;
     margin-left: 32px;
 }
-.rakhi .item div img{
+.rakhi .rakhi-item div img{
     height: 146px;
     width: 86%;
 }
-.item div h4{
+.addToCart{
     background-color: #D3134F;
     width: 86%;
     text-align: center;
     border-radius: 2px;
+    color: white;
+}
+.view-all-button{
+    background: #D3134F;
+    color: white;
+    height: 35px;
+    width: 90px;
+    border: none;
+    float: right;
+    margin-right: 44px;
+}
+.Healing-Crystals h2{
+    margin-left: 50px;
+}
+.Healing-Crystals .healing-crystals-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 42px;
+    margin-right:24px
+}
+.healing-crystals-item div{
+margin-right: 20px;
+
+
+}
+.healing-crystals-item div img{
+    width: 100%;
+}
+.healing-crystals-item div .addToCart{
+    width: 100%;
+}
+
+.banner2{
+    margin-top: 96px;
+    margin-bottom: 96px;
+}
+.Follow-us p{
+text-align: center;
+
+}
+.follow-us-insta{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+}
+.follow-us-insta div img{
+    width: 100%;
+}
+
+.puja-box-text{
+    text-align: center;
+}
+.puja-box-text a h5{
+    color:#D3134F;
+}
+.delevery-icon{
+    display: flex;
+    justify-content: space-around;
+}
+.Cash-on-delivery{
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    padding-left: 12%;
+    padding-right: 12%;
+}
+.footer-body{
+    background-color: #FFAFB6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.information-menu a{
+   color: white;
+   display: block;
+}
+.my-puja-box a{
+    color:white;
+    display: block;
+}
+.customer-care a{
+    color:white;
+    display: block;
 }

@@ -112,6 +112,41 @@ a:hover{
     width: 65px;
 }
 .search-cart li img{
-    width: 10%;
+    width: 50%;
 
+}
+
+.banner img{
+width: 100%;
+}
+
+.catagory {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-left: 50px;
+}
+
+.catagory div img{
+    width: 68%;
+    border-radius: 50%;
+}
+.rakhi h2{
+    margin-left: 50px;
+}
+.item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 32px;
+}
+.rakhi .item div img{
+    height: 146px;
+    width: 86%;
+}
+.item div h4{
+    background-color: #D3134F;
+    width: 86%;
+    text-align: center;
+    border-radius: 2px;
 }

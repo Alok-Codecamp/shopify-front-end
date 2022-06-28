@@ -36,8 +36,9 @@ body{
     justify-content: center;
     align-items: center;
     list-style: none;
-    margin-right: 32%;
+    margin-right: 30%;
     margin-bottom: 12px;
+    
     
 }
 .navigation li{
@@ -53,4 +54,64 @@ body{
 .search-cart li{
     font-size: 10px;
     margin-right: 20px;
+}
+.shop-list{
+    background-color: white;
+    background-color: white;
+    box-shadow: 0px 1px 2px 0px grey;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    top: 18%;
+    right: 12;
+    visibility: hidden;
+}
+
+.shop-nav ul{
+    list-style: none;
+}
+.shop-nav ul li{
+    margin-top: 10px;
+}
+.shop-nav:hover .shop-list{
+    visibility: visible;
+}
+.home-decor{
+    background-color: white;
+    background-color: white;
+    box-shadow: 0px 1px 2px 0px grey;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    top: 21%;
+    right: 23%;
+    height: 20%;
+    visibility: hidden;
+}
+.home-decor ul{
+    list-style: none;
+    font-size: 12px;
+}
+.home-decor-list:hover .home-decor{
+    visibility: visible;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    text-decoration: underline;
+}
+.search-cart li{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 65px;
+}
+.search-cart li img{
+    width: 10%;
+
 }
